@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lúmina Clínica Dental — Sonrisas que iluminan cada día</title>
+<meta name="description" content="Clínica dental en Madrid especializada en odontología estética, ortodoncia, implantes y odontopediatría. Pide tu cita hoy.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <div class="navbar__inner">
+    <a href="#inicio" class="brand">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" fill="none"><path d="M16 6c-2.8 0-4.6 1.6-6.2 1.6-1.7 0-3.1-1.1-4.4-1.1-1.9 0-3.4 1.9-3.4 5.1 0 5.3 3.6 12.9 6.3 12.9 1.5 0 2-1.1 3.7-1.1s2.1 1.1 3.7 1.1c1.4 0 2.4-1.4 3.3-3M16 6c2.8 0 4.6 1.6 6.2 1.6 1.7 0 3.1-1.1 4.4-1.1 1.9 0 3.4 1.9 3.4 5.1 0 5.3-3.6 12.9-6.3 12.9-1 0-1.6-.4-2.2-.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 6c0-1.8-1-3.4-2.6-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </span>
+      <span class="brand__text">Lúmina<em>Clínica Dental</em></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#nosotros" class="nav-link">Nosotros</a>
+      <a href="#servicios" class="nav-link">Servicios</a>
+      <a href="#galeria" class="nav-link">Galería</a>
+      <a href="#opiniones" class="nav-link">Opiniones</a>
+      <a href="#contacto" class="nav-link">Contacto</a>
+    </nav>
+
+    <div class="navbar__actions">
+      <a href="tel:+34954112233" class="navbar__phone">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.7 5 6.5 6.5l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .8-.2 1.1L6.6 10.8Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>954&nbsp;11&nbsp;22&nbsp;33</span>
+      </a>
+      <a href="#contacto" class="btn btn--primary btn--sm">Pedir cita</a>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ MOBILE MENU ============ -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu__backdrop" id="mobileMenuBackdrop"></div>
+  <div class="mobile-menu__panel">
+    <a href="#inicio" class="mobile-link">Inicio</a>
+    <a href="#nosotros" class="mobile-link">Nosotros</a>
+    <a href="#servicios" class="mobile-link">Servicios</a>
+    <a href="#galeria" class="mobile-link">Galería</a>
+    <a href="#opiniones" class="mobile-link">Opiniones</a>
+    <a href="#contacto" class="mobile-link">Contacto</a>
+    <div class="mobile-menu__footer">
+      <p>¿Necesitas una cita urgente?</p>
+      <a href="tel:+34954112233" class="btn btn--outline-light btn--block">Llamar a la clínica</a>
+    </div>
+  </div>
+</div>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="inicio">
+  <div class="hero__inner">
+    <div class="hero__copy reveal">
+      <h1 class="hero__title">Tu sonrisa,<br>nuestra obra maestra.</h1>
+      <p class="hero__text">Odontología de precisión con un trato cercano. En Lúmina combinamos tecnología avanzada y un equipo especializado para cuidar tu salud dental en cada etapa de la vida.</p>
+      <div class="hero__actions">
+        <a href="#contacto" class="btn btn--primary btn--lg">Pedir cita</a>
+        <a href="#servicios" class="btn btn--ghost btn--lg">Ver servicios</a>
+      </div>
+      <div class="hero__stats">
+        <div class="stat">
+          <span class="stat__num" data-count="15">0</span><span class="stat__suffix">+</span>
+          <span class="stat__label">años de experiencia</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="8400">0</span><span class="stat__suffix">+</span>
+          <span class="stat__label">pacientes atendidos</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="4.9" data-decimal="1">0</span>
+          <span class="stat__label">valoración media</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__visual reveal">
+      <svg class="hero__art" viewBox="0 0 480 480" fill="none" aria-hidden="true">
+        <circle cx="240" cy="240" r="200" fill="#EFE9DC"/>
+        <circle cx="240" cy="240" r="150" fill="#E4A65C" fill-opacity="0.18"/>
+        <path d="M150 190c0-30 24-46 48-46 18 0 26 10 42 10s24-10 42-10c24 0 48 16 48 46 0 46-30 112-58 112-13 0-18-9-32-9s-19 9-32 9c-24 0-58-66-58-112Z" fill="#FFFFFF" stroke="#2F5D53" stroke-width="4"/>
+        <path d="M198 178c-4 20-4 42 6 62M282 178c4 20 4 42-6 62" stroke="#2F5D53" stroke-width="4" stroke-linecap="round"/>
+        <circle cx="360" cy="120" r="34" fill="#2F5D53"/>
+        <path d="M347 120l9 9 18-18" stroke="#F4F1EA" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="90" cy="340" r="26" fill="#E4A65C"/>
+        <path d="M80 340h20M90 330v20" stroke="#16241F" stroke-width="3.5" stroke-linecap="round"/>
+      </svg>
+      <div class="hero__badge">
+        <span class="hero__badge-dot"></span>
+        Citas disponibles esta semana
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NOSOTROS ============ -->
+<section class="about" id="nosotros">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <h2>Un equipo que se nota en cada detalle</h2>
+      <p>Desde 2011 cuidamos la salud bucodental de familias enteras. Nuestra clínica está pensada para que cada visita sea tranquila, clara y sin sorpresas: te explicamos cada paso y adaptamos el tratamiento a ti, no al revés.</p>
+    </div>
+
+    <div class="values reveal">
+      <div class="value-card">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3.5v5.2c0 4.6-3 8.8-7 10.3-4-1.5-7-5.7-7-10.3V6.5L12 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 12l2 2 4-4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <h3>Tecnología fiable</h3>
+        <p>Escáner intraoral, radiología digital de baja radiación y esterilización certificada en todas las salas.</p>
+      </div>
+      <div class="value-card">
+        <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="3.4" stroke="currentColor" stroke-width="1.6"/><path d="M5 20c1.4-3.6 4-5.5 7-5.5s5.6 1.9 7 5.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <h3>Trato cercano</h3>
+        <p>Consultas sin prisas, presupuestos claros por escrito y seguimiento personalizado tras cada tratamiento.</p>
+      </div>
+      <div class="value-card">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M4 12c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M4 12l3-3M4 12l3 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <h3>Planes flexibles</h3>
+        <p>Financiación sin intereses hasta en 24 meses y horario de mañana y tarde para que encajes tu cita.</p>
+      </div>
+    </div>
+
+    <h3 class="team-heading reveal">Nuestro equipo</h3>
+    <div class="team reveal" id="teamGrid">
+      <!-- team cards injected by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICIOS ============ -->
+<section class="services" id="servicios">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <h2>Servicios y precios orientativos</h2>
+      <p>Cada boca es distinta, así que el presupuesto final se confirma tras la primera revisión. Estos son los precios de partida más habituales.</p>
+    </div>
+
+    <div class="services-grid reveal" id="servicesGrid">
+      <!-- service cards injected by JS -->
+    </div>
+
+    <p class="services-note reveal">Todos los tratamientos incluyen una primera visita de diagnóstico y un plan de tratamiento por escrito, sin compromiso.</p>
+  </div>
+</section>
+
+<!-- ============ GALERÍA ============ -->
+<section class="gallery" id="galeria">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <h2>Conoce nuestras instalaciones</h2>
+      <p>Un espacio luminoso y tranquilo, pensado para que la visita al dentista deje de ser un mal trago.</p>
+    </div>
+    <div class="gallery-grid reveal" id="galleryGrid">
+      <!-- gallery tiles injected by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ============ OPINIONES ============ -->
+<section class="reviews" id="opiniones">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <h2>Lo que cuentan nuestros pacientes</h2>
+      <p>Más de 600 opiniones verificadas en Google con una media de 4,9 sobre 5.</p>
+    </div>
+
+    <div class="reviews-carousel reveal">
+      <button class="carousel-arrow carousel-arrow--prev" id="reviewPrev" aria-label="Opinión anterior">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+
+      <div class="reviews-track" id="reviewsTrack">
+        <!-- review cards injected by JS -->
+      </div>
+
+      <button class="carousel-arrow carousel-arrow--next" id="reviewNext" aria-label="Opinión siguiente">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+    <div class="carousel-dots" id="reviewDots"></div>
+  </div>
+</section>
+
+<!-- ============ CONTACTO ============ -->
+<section class="contact" id="contacto">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <h2>Reserva tu cita</h2>
+      <p>Escríbenos, llámanos o pásate por la clínica. Respondemos los mensajes en menos de 24 horas laborables.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <a class="info-row" href="https://maps.google.com/?q=Calle+Mayor+24,+28013+Madrid" target="_blank" rel="noopener">
+          <span class="info-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 21s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="12" cy="9" r="2.6" stroke="currentColor" stroke-width="1.6"/></svg>
+          </span>
+          <span>
+            <strong>Calle Mayor 24, 28013 Madrid</strong>
+            <small>A 2 minutos de Metro Ópera</small>
+          </span>
+        </a>
+
+        <a class="info-row" href="tel:+34954112233">
+          <span class="info-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.7 5 6.5 6.5l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .8-.2 1.1L6.6 10.8Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span>
+            <strong>954 11 22 33</strong>
+            <small>Recepción y urgencias</small>
+          </span>
+        </a>
+
+        <a class="info-row" href="mailto:info@luminaclinica.es">
+          <span class="info-icon">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span>
+            <strong>info@luminaclinica.es</strong>
+            <small>Consultas y presupuestos</small>
+          </span>
+        </a>
+
+        <a class="info-row" href="https://instagram.com/luminaclinica" target="_blank" rel="noopener">
+          <span class="info-icon">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="3.5" width="17" height="17" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
+          </span>
+          <span>
+            <strong>@luminaclinica</strong>
+            <small>Síguenos en Instagram</small>
+          </span>
+        </a>
+
+        <div class="hours-card">
+          <h3>Horario</h3>
+          <div class="hours-row"><span>Lunes – Jueves</span><span>9:00 – 14:00 · 16:00 – 20:00</span></div>
+          <div class="hours-row"><span>Viernes</span><span>9:00 – 15:00</span></div>
+          <div class="hours-row"><span>Sábado</span><span>10:00 – 13:00</span></div>
+          <div class="hours-row"><span>Domingo</span><span>Cerrado</span></div>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="field">
+            <label for="fName">Nombre</label>
+            <input type="text" id="fName" name="fName" placeholder="Tu nombre" required>
+            <span class="field-error">Cuéntanos cómo te llamas.</span>
+          </div>
+          <div class="field">
+            <label for="fPhone">Teléfono</label>
+            <input type="tel" id="fPhone" name="fPhone" placeholder="600 000 000">
+          </div>
+        </div>
+        <div class="field">
+          <label for="fEmail">Correo electrónico</label>
+          <input type="email" id="fEmail" name="fEmail" placeholder="tucorreo@ejemplo.com" required>
+          <span class="field-error">Escribe un correo válido.</span>
+        </div>
+        <div class="field">
+          <label for="fReason">Motivo de la consulta</label>
+          <select id="fReason" name="fReason">
+            <option>Revisión general</option>
+            <option>Estética dental</option>
+            <option>Ortodoncia</option>
+            <option>Implantes</option>
+            <option>Odontopediatría</option>
+            <option>Urgencia</option>
+            <option>Otro</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="fMessage">Mensaje</label>
+          <textarea id="fMessage" name="fMessage" rows="4" placeholder="Cuéntanos brevemente qué necesitas" required></textarea>
+          <span class="field-error">Añade un breve mensaje.</span>
+        </div>
+        <button type="submit" class="btn btn--primary btn--lg btn--block">
+          <span id="submitLabel">Enviar mensaje</span>
+        </button>
+        <p class="form-note" id="formNote">Al enviar, se abrirá tu aplicación de correo con el mensaje ya redactado para info@luminaclinica.es.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="section-inner footer__inner">
+    <div class="footer__brand">
+      <span class="brand__text brand__text--light">Lúmina<em>Clínica Dental</em></span>
+      <p>Calle Mayor 24, 28013 Madrid · 954 11 22 33</p>
+    </div>
+    <nav class="footer__links">
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#galeria">Galería</a>
+      <a href="#opiniones">Opiniones</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="footer__social">
+      <a href="https://instagram.com/luminaclinica" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="3.5" width="17" height="17" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
+      </a>
+      <a href="https://wa.me/34611222333" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M4 20l1.3-4.2A8 8 0 1 1 8.6 19L4 20Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 9.6c0 3 2.4 5.4 5.4 5.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </a>
+    </div>
+  </div>
+  <p class="footer__copy">© <span id="year"></span> Lúmina Clínica Dental. Todos los derechos reservados.</p>
+</footer>
+
+<!-- ============ WHATSAPP FLOAT BUTTON ============ -->
+<a href="https://wa.me/34611222333?text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20una%20cita%20en%20L%C3%BAmina%20Cl%C3%ADnica%20Dental"
+   class="whatsapp-fab" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="none"><path d="M4 20l1.3-4.2A8 8 0 1 1 8.6 19L4 20Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 9.6c0 3 2.4 5.4 5.4 5.4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+</a>
+
+<!-- ============ GALLERY LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox__close" id="lightboxClose" aria-label="Cerrar">
+    <svg viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+  </button>
+  <div class="lightbox__content" id="lightboxContent"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
